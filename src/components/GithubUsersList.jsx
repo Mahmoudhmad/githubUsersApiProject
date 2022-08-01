@@ -24,7 +24,7 @@ if(loading){
 return (
  <div className="font-serif"> 
      <h1 className='m-3 md:m-5 text-center text-3xl  md:text-4xl lg:text-5xl  xl:text-6xl capitalize ' >github users list</h1>
-    <div className='container  grid  grid-cols-1 place-items-center gap-4 m-4  md:grid-cols-2 md:place-items-start 
+    <div className='container  grid  grid-cols-1 place-items-center gap-4 md:m-4  md:grid-cols-2 md:place-items-start 
     lg:grid-cols-3 xl:text-left xl:grid-cols-4'>  
 {
             users.map((user) => {const {id, login,repos_url ,avatar_url,  html_url} = user;
